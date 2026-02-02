@@ -1,71 +1,66 @@
 <!doctype html>
 <html lang="fr">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Cristalline Guidance — Accueil</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body class="home">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Cristalline Guidance — Accueil</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body class="home">
+		<!-- Barre de navigation (lavande) -->
+		<header class="site-header">
+			<div class="container">
+				<nav class="nav" aria-label="Navigation principale">
+					<a href="index.html" data-nav="index.html">ACCUEIL</a>
+					<a href="about.html" data-nav="about.html">A PROPOS DE MOI</a>
+					<a href="consultation.html" data-nav="consultation.html"
+						>CONSULTATION TAROT</a
+					>
+					<a href="outils.html" data-nav="outils.html">OUTILS</a>
+					<a href="contact.html" data-nav="contact.html">CONTACT</a>
+				</nav>
+			</div>
+		</header>
 
-  <!-- Barre de navigation (lavande) -->
-  <header class="site-header">
-    <div class="container">
-      <nav class="nav" aria-label="Navigation principale">
-        <a href="index.html" data-nav="index.html">ACCUEIL</a>
-        <a href="about.html" data-nav="about.html">A PROPOS DE MOI</a>
-        <a href="consultation.html" data-nav="consultation.html">CONSULTATION TAROT</a>
-        <a href="outils.html" data-nav="outils.html">OUTILS</a>
-        <a href="contact.html" data-nav="contact.html">CONTACT</a>
-      </nav>
-    </div>
-  </header>
+		<main>
+			<!-- Bandeau violet plein écran -->
+			<section class="hero-band">
+				<div class="container hero-inner">
+					<section class="home-bottomimg"></section>
+					<p class="hero-subtitle">CRISTALLINE GUIDANCE</p>
+					<h1>CONSULTATION TAROT</h1>
+				</div>
+			</section>
 
-  <main>
+			<!-- Section du bas (fond clair, 2 colonnes) -->
+			<section class="home-bottom">
+				<div class="container home-grid">
+					<div class="home-image">
+						<img src="photos/corinne.jpg" alt="placeholder" />
+					</div>
 
-    <!-- Bandeau violet plein écran -->
-    <section class="hero-band">
-      <div class="container hero-inner">
-         <section class="home-bottomimg"></section>
-        <p class="hero-subtitle">CRISTALLINE GUIDANCE</p>
-        <h1>CONSULTATION TAROT</h1>
-        
-      </div>
-    </section>
+					<div class="home-text">
+						<p class="home-paragraph">
+							Je suis Corinne Anita, je vous propose une consultation de tarot,
+							en vous guidant <br />de manière intuitive en éclairant votre
+							chemin. Je réponds à vos questions<br />
+							existentielles, sans empiéter sur votre libre arbitre afin de
+							découvrir vos propres clés.
+						</p>
 
-    <!-- Section du bas (fond clair, 2 colonnes) -->
-    <section class="home-bottom">
-      
-      <div class="container home-grid">
+						<p class="home-paragraph hint">
+							Prenez rendez-vous dès maintenant ci- dessous.
+						</p>
+						<div class="home-cta">
+							<a class="btn btn-home" href="consultation.html"
+								>PRENDRE RENDEZ-VOUS</a
+							>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
 
-        <div class="home-image">
-          <img src="photos/corinne.jpg" alt="placeholder" />
-        </div>
-
-        <div class="home-text">
-          <p class="home-paragraph">
-            Je suis Corinne Anita, je vous offre une consultation de
-            tarot, en vous guidant <br>de manière intuitive en éclairant
-            votre chemin. Je réponds à vos questions<br> existentielles,
-            sans empiéter sur votre libre arbitre afin de découvrir vos
-            propres clés.
-          </p>
-
-          <p class="home-paragraph hint">
-            Prenez rendez-vous dès maintenant ci-
-            dessous.
-          </p>
-          <div class="home-cta">
-            <a class="btn btn-home" href="consultation.html">PRENDRE RENDEZ-VOUS</a>
-          </div>
-        </div>
-
-      </div>
-      
-    </section>
-
-  </main>
-
-  <script src="script.js"></script>
-</body>
+		<script src="script.js"></script>
+	</body>
 </html>

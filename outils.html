@@ -1,104 +1,110 @@
 <!doctype html>
 <html lang="fr">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Cristalline Guidance — Outils</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body class="outils">
-  <header class="site-header">
-    <div class="container">
-      <nav class="nav" aria-label="Navigation principale">
-        <a href="index.html" data-nav="index.html">ACCUEIL</a>
-        <a href="about.html" data-nav="about.html">A PROPOS DE MOI</a>
-        <a href="consultation.html" data-nav="consultation.html">CONSULTATION TAROT</a>
-        <a href="outils.html" data-nav="outils.html">OUTILS</a>
-        <a href="contact.html" data-nav="contact.html">CONTACT</a>
-      </nav>
-    </div>
-  </header>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Cristalline Guidance — Outils</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body class="outils">
+		<header class="site-header">
+			<div class="container">
+				<nav class="nav" aria-label="Navigation principale">
+					<a href="index.html" data-nav="index.html">ACCUEIL</a>
+					<a href="about.html" data-nav="about.html">A PROPOS DE MOI</a>
+					<a href="consultation.html" data-nav="consultation.html"
+						>CONSULTATION TAROT</a
+					>
+					<a href="outils.html" data-nav="outils.html">OUTILS</a>
+					<a href="contact.html" data-nav="contact.html">CONTACT</a>
+				</nav>
+			</div>
+		</header>
 
-  <main class="page">
-    <div class="container">
- <figure class="tools-media">
-          <div class="media tools-img">
-            <img src="photos/penduletarot.jpg" alt="placeholder" />
-          </div>
-         
-        </figure>
-      <!-- Bloc 1 : Texte à gauche / Image à droite -->
-      <section class="tools-row">
-        <div class="panel tools-text">
-          <p class="home-paragraph9">
-            Le lien unique entre les différents
-            outils est qu'ils servent de support
-            à l'intuition: les outils divinatoires
-            agissent comme des catalyseurs de
-            la connaissance de soi.
-            Le tarot est un langage symbolique
-            qui donne corps aux murmures de
-            l'âme.<br><br>
-        
-          </p>
-        </div>
+		<main class="page">
+			<div class="container">
+				<!-- BLOCK 1 -->
+				<!-- Desktop: image left, text right (because we will NOT reverse) -->
+				<!-- Mobile: image first, then text -->
+				<section class="tools-row tools-stack-imagefirst">
+					<figure class="tools-media">
+						<div class="media tools-img">
+							<img src="photos/penduletarot.jpg" alt="placeholder" />
+						</div>
+					</figure>
 
-       
-      </section>
+					<div class="panel tools-text">
+						<p class="home-paragraph9">
+							Le lien unique entre les différents outils est qu'ils servent de
+							support à l'intuition: les outils divinatoires agissent comme des
+							catalyseurs de la connaissance de soi. Le tarot est un langage
+							symbolique qui donne corps aux murmures de l'âme.<br /><br />
+						</p>
+					</div>
+				</section>
 
-      <!-- Bloc 2 : Image à gauche / Texte à droite (alternance) -->
-      <section class="tools-row is-reverse">
-        <figure class="tools-media">
-          <div class="media tools-img">
-            <img src="photos/bettercards.png" alt="placeholder" />
-          </div>
-         
-        </figure>
+				<!-- BLOCK 2 -->
+				<!-- Desktop: text left, image right (reverse row) -->
+				<!-- Mobile: image first, then text again -->
+				<section class="tools-row is-reverse tools-stack-imagefirst">
+					<figure class="tools-media">
+						<div class="media tools-img">
+							<img src="photos/bettercards.png" alt="placeholder" />
+						</div>
+					</figure>
 
-        <div class="panel tools-text">
-              <p class="home-paragraph9">J'utilise notamment ces outils ci-
-            dessous.</p>
-            <ul>
-            <li class="home-paragraph9"><span class="boldtext">Le tarot de Marseille</span></li>
-          <li class="home-paragraph9"><span class="boldtext">Le tarot de mademoiselle Lenormand</span></li>
-           <li class="home-paragraph9"><span class="boldtext">Oracles</span></li>
-           <p class="home-paragraph9">
-                 L'oracle insuffle des guidances qui
-            éveillent la pensée et
-            l'introspection.
+					<div class="panel tools-text">
+						<p class="home-paragraph9">
+							J'utilise notamment ces outils ci- dessous.
+						</p>
 
-           
-            <li class="home-paragraph9"><span class="boldtext">Le psycho-tarot de Jack et Rae Hurley</span></li>
-            <p class="home-paragraph9"> Le psycho-tarot (de Hurley) est une
-            variante du tarot divinatoire qui
-            s'appuie sur les principes de la
-            psychologie projective. Les cartes
-            agissent comme des miroirs
-            permettant de développer notre
-            potentiel.</p>
-            <li class="home-paragraph9"><span class="boldtext">Le pendule</span></li>
-            <p class="home-paragraph9">
-            Le pendule est un outil de
-            radiesthésie (détermine les champs
-            énergétiques) et une extension de
-            l'intuition.
-            </ul>
-          <p class="home-paragraph9">
-            
-    
-            <br><br>
-           
-          </p>
-        </div>
-      </section>
+						<ul>
+							<li class="home-paragraph9">
+								<span class="boldtext">Le tarot de Marseille</span>
+							</li>
+							<li class="home-paragraph9">
+								<span class="boldtext">Le tarot de mademoiselle Lenormand</span>
+							</li>
+							<li class="home-paragraph9">
+								<span class="boldtext">Oracles</span>
+							</li>
 
-    </div>
-  </main>
+							<p class="home-paragraph9">
+								L'oracle insuffle des guidances qui éveillent la pensée et
+								l'introspection.
+							</p>
 
-  <footer class="site-footer">
-    <div class="container">© 2026 Cristalline Guidance, Inc.</div>
-  </footer>
+							<li class="home-paragraph9">
+								<span class="boldtext"
+									>Le psycho-tarot de Jack et Rae Hurley</span
+								>
+							</li>
 
-  <script src="script.js"></script>
-</body>
+							<p class="home-paragraph9">
+								Le psycho-tarot (de Hurley) est une variante du tarot
+								divinatoire qui s'appuie sur les principes de la psychologie
+								projective. Les cartes agissent comme des miroirs permettant de
+								développer notre potentiel.
+							</p>
+
+							<li class="home-paragraph9">
+								<span class="boldtext">Le pendule</span>
+							</li>
+
+							<p class="home-paragraph9">
+								Le pendule est un outil de radiesthésie (détermine les champs
+								énergétiques) et une extension de l'intuition.
+							</p>
+						</ul>
+					</div>
+				</section>
+			</div>
+		</main>
+
+		<footer class="site-footer">
+			<div class="container">© 2026 Cristalline Guidance, Inc.</div>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
 </html>
